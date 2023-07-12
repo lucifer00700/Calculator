@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta http-equiv='X-UA-Compatible' content='IE-edge'>
+<meta name='viewport' content='width=device-width,initial-scale=1.0'>
+<title>Scientific Calculator</title>
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+<link rel="stylesheet" href="calci.css">
+<script src="logic.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="header">Your Calculator</div>
+    <div class="input-section">
+        <div class="ip1">
+          <h2 class="iphead">Enter Input-1</h2>
+          <input  class="ipdesc1" type="number" placeholder="Enter first operand">
+        </div>
+        <div class="ip2">
+            <h2 class="iphead">Enter Input-2</h2>
+          <input class="ipdesc2" type="number" placeholder="Enter second operand">
+        </div>
+    </div>
+
+    <div class="btn-section">
+        <div class="sec1">
+        <button class="btn1" onclick="add()">
+             +
+        </button>
+        <button class="btn2" onclick="sub()">
+            -
+       </button>
+       <button class="btn3" onclick="mul()">
+        *
+       </button>
+       <button class="btn4" onclick="div()">
+        /
+       </button>
+       </div>
+       <div class="sec2">
+       <button class="btn5" onclick="mod()">
+        %
+       </button>
+       <button class="btn6" onclick="pow()">
+        ^
+       </button>
+       <button class="btn7" onclick="ncr()">
+        <sup>n</sup>C<sub>r</sub>
+       </button>
+       <button class="btn8" onclick="npr()">
+        <sup>n</sup>P<sub>r</sub>
+       </button>
+       </div>
+    </div>
+
+
+    <div class="op-section">
+         
+         <div id="op"></div>
+         <div class="btn-op">Answer</div>
+    </div>
+  </div>
+</body>
+</html>

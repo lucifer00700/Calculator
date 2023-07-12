@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{ 
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: darkred;
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+}
+
+.ip1,.ip2{
+    margin: 40px;
+    width: 200px;
+    height: 100px;
+}
+
+.iphead{
+    margin-bottom: 10px;
+    color: darkred;
+}
+
+.ipdesc1,.ipdesc2{
+    height: 40px;
+    background-color: blanchedalmond;
+    box-shadow: 5px 10px 8px burlywood;
+}
+
+.input-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 57px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    border-color: blue;
+}
+
+.sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn7,.btn8{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bolder;
+    background-color: blueviolet;
+    border-radius: 50%;
+    border-color: blue;
+}
+
+
+.image{
+   width: 60px;
+   height: 60px;
+}
+
+.op-section{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+#op{
+    background-color: brown;
+    font-size: 30px;
+    width: 350px;
+    display: flex;
+    border: 3px dotted violet;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.btn-op{
+    padding: 10px;
+    background-color: chocolate;
+    font-size: 30px;
+    border: 4px dashed brown;
+}
+
+.title-hd{
+    color: darkred;
+}
